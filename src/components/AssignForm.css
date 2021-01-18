@@ -1,0 +1,7 @@
+.form-control {
+    width: 20% !important;
+}
+.form-group {
+    display: flex !important;
+    justify-content: space-between !important;
+}

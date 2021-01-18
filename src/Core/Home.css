@@ -1,0 +1,116 @@
+.main_banner_image{
+    width: 100%;
+}
+.main_banner_section{
+    /* background-image: url('../Images/WelcomeHome.jpg'); */
+    /* height: 100vh; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat;  */
+    /* background-size: cover; */
+    position: relative;
+    width: 100%;
+}
+.banner_content_section{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button_section{
+    display: flex;
+    margin-left: 30px;
+}
+.refer_jobs_button{
+    background-color: rgb(255, 156, 1) !important;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 55px 16px 55px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 30px;
+}
+.refer_jobs_button:hover{
+    color:  rgb(255, 156, 1) !important;
+    background-color: #fff !important;
+    font-weight: 500;
+}
+.refer_candidate_btn{
+    border-radius: 50px;
+    border: none;
+    padding: 15px 30px 16px 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.refer_candidate_btn:hover{
+    color: #005cbf;
+    background-color: #fff;
+    font-weight: 500;
+}
+h1{
+    font-size: 42px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+h2{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+span{
+    color:  rgb(255, 156, 1);
+}
+
+
+/* image grid stylesheet */
+.gird_row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1px;
+  }
+    .gird_column {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 50%;
+    padding: 0 1px;
+    position: relative;
+  }
+  
+  .gird_column img {
+    margin-top: 1.5px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .gird_column h2{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .gird_column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .gird_column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+   h1{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 72px;
+}
+h2{
+    font-size: 15px;
+}
+}
