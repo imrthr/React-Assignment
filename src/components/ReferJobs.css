@@ -1,0 +1,119 @@
+.form_card{
+    margin: 40px 95px 40px 95px;
+    padding: 25px 22px;
+}
+.form-control {
+    width: 33% !important;
+}
+.form-group {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.form-group input{
+    border-radius: 50px;
+    box-shadow: 2px 2px 0px 0px lightgrey;
+}
+.h3_title{
+    color: #212529;
+    margin-bottom: 30px;
+}
+h4{
+    margin-bottom: 30px;
+}
+.form-group label{
+    font-size: 14px !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 13px;
+  }
+  .textArea_field{
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 4px 0px 0px 14px;
+    box-shadow: 2px 2px 0px 0px lightgrey;
+    margin-bottom: 17px;
+}
+.textarea_label{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.optional_color{
+    color: #005cbf;
+    font-size: 13px;
+}
+.file_input{
+    border-radius: 0px !important;
+    color: black;
+    font-size: 13px !important;
+}
+.file_input input{
+    box-shadow: none!important;
+}
+.upload_btn{
+    background-color: #3ad5d4;
+    font-size: 14px;
+    color: white;
+    margin-top: 7px;
+}
+.submit_btn{
+    border-radius: 50px;
+    border: none;
+    padding: 11px 48px 13px 48px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 28px;
+    opacity: .8;
+    margin-bottom: -18px;
+}
+.referral_header_banner{
+    position: relative;
+}
+.referral_header_banner img{
+    height: 190px;
+    width: 100%;
+}
+.referral_header_banner h2{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+.refer_a{
+    color: #fff;
+    font-size: 36px !important;
+    font-weight: 400;
+}
+.header_section{
+    display: flex;
+    height: 84px;
+    justify-content: space-between;
+}
+.header_section img{
+    height: 55px;
+    width: 58px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 4px;
+    margin-top: 14px;
+}
+.header_section p{
+    font-size: 20px;
+    color: #212529;
+    font-weight: 800;
+    opacity: 0.7;
+    margin-top: 25px;
+}
+.display_flex{
+    display: flex;
+}
+.anchor_section{
+    margin: 29px;
+    font-size: 14px;
+    opacity: .8;
+}
+.anchor_section a{
+   margin-right: 15px;
+}

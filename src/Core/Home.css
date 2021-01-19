@@ -114,3 +114,6 @@ h2{
     font-size: 15px;
 }
 }
+*{
+  scroll-behavior: smooth;
+}

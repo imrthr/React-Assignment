@@ -26,7 +26,12 @@ const Home = () => {
                                 Refer Jobs
                     </Button>
                         </Link>
-                        <Link className="nav-link" to='/referjob'>
+                        <Link className="nav-link" to='/'  onClick={e => {
+                         let refer_candidate = document.getElementById("refer_candidate");
+                         e.preventDefault();
+                         refer_candidate && refer_candidate.scrollIntoView({ behavior: "smooth", block: "start" });
+                         window.history.pushState("refer_candidate", "refer_candidate","/#refer_candidate");
+        }}>
                             <Button variant="primary" type="button" className="btn btn-primary first-color btn-lg refer-click refer_candidate_btn">
                                 Refer Candidate
                     </Button>
@@ -35,7 +40,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="gird_row">
+            <div className="gird_row" id="refer_candidate">
                 <div className="gird_column">
                     <img src={management} />
                     <h2>PROJECT MANAGEMENT</h2>
